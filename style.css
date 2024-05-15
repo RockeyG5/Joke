@@ -1,0 +1,33 @@
+body{
+    background-color:#CFDBD5;
+  }
+
+.joke-container{
+    margin-top: 25%;
+    margin-bottom: 25%;
+    margin-left: 25%;
+    margin-right:25%;
+    background-color:#F5CB5C;
+    border-radius: 3px;
+    height:200px;
+    border-color: black;
+    border-width: 3px;
+    border-style: inset;
+}
+.joke-from-api{
+    align-content: center;
+    margin: 2em;
+    height: auto;
+    background-color:#F5CB5C;
+    border-radius: 2px;
+}
+.Button{
+    color:#242423;
+    background-color: brown;
+    margin-right: 0;
+    margin-left:3em;
+}
+.Joke-Button{
+margin-top: 3em;
+margin-left: 2em;
+}
