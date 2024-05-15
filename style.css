@@ -32,4 +32,5 @@ body{
 .Joke-Button{
 margin-top: 3em;
 margin-left: 2em;
+cursor: pointer;
 }

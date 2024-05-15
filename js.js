@@ -1,9 +1,16 @@
-const button1 = document.getElementById("Button");
+const buttonOne = document.querySelector(".joke-container button");
+const textBox = document.querySelector(".joke-container p");
 console.log("The console prints this");
 
-function test(){
-    console.log("Button Working...");
-}
+buttonOne.addEventListener('click',getjoke);
 
+async function getjoke(){
+    const jokeData=await fetch('https://icanhazdadjoke.com/', {
+        headers: {
+            'Accept':'application/json'
+        }
+    });
 
-button1.onClick = test();
+const jokeObj= await jokeData.json();
+textBox.innerHTML = jokeObj.joke;
+};
