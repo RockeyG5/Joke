@@ -24,8 +24,10 @@ body{
 .Button{
     color:#242423;
     background-color: brown;
-    margin-right: 0;
-    margin-left:3em;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
 }
 .Joke-Button{
 margin-top: 3em;
